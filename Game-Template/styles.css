@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#container {
+  position: relative;
+}
+
+#gameCanvas {
+  display: block;
+  margin: auto;
+}
+
+#playButton {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 50px;
+  font-size: 30px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#playButton:hover {
+  background-color: #45a049;
+}
